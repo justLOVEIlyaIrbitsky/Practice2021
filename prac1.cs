@@ -162,7 +162,7 @@ namespace prac1
             {
             
             List<int> line = new List<int>();
-            var Comb = new IAdvanced(new int[4] { 1, 4, 3, 4 }); //I LOVE HARDCODE
+            var Comb = new IAdvanced(new int[4] { 1, 4, 3, 4 }); //I LOVE HARDCODE, USE CORRECT DATA ONLY, (PLS)
             Comb.Combination(3, line);
             var Sub = new IAdvanced(new int[3] { 1, 2, 3 });
             Sub.Subset();
